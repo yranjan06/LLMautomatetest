@@ -90,7 +90,8 @@ LLMautomatetest/
 │   ├── main.py            # FastAPI application & endpoints
 │   ├── llm_generator.py   # OpenAI integration & code generation
 │   ├── github_utils.py    # GitHub API operations
-│   └── notify.py          # Evaluation server notification
+│   ├── notify.py          # Evaluation server notification
+│   └── signature.py       # (unused)
 ├── requirements.txt       # Python dependencies
 ├── runtime.txt           # Python version specification
 ├── test_github.py        # Connection tests
