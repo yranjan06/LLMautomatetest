@@ -4,6 +4,29 @@
 
 LLM Automate Test is a FastAPI service that takes a natural language task brief, generates a complete web application using an LLM, creates a GitHub repository, and deploys the app to GitHub Pages automatically.
 
+
+---
+
+How it Works
+
+1. FastAPI receives a task brief via API.
+
+
+2. The LLM generates HTML, CSS, JavaScript, and README files.
+
+
+3. A GitHub repository is created or updated automatically.
+
+
+4. Files are committed and GitHub Pages is enabled.
+
+
+5. After deployment, the evaluation server is notified.
+
+
+
+The entire flow runs asynchronously in the background.
+
 ---
 
 ### How to Run
@@ -30,24 +53,3 @@ Server runs at:
 http://127.0.0.1:8000
 
 
----
-
-How it Works
-
-1. FastAPI receives a task brief via API.
-
-
-2. The LLM generates HTML, CSS, JavaScript, and README files.
-
-
-3. A GitHub repository is created or updated automatically.
-
-
-4. Files are committed and GitHub Pages is enabled.
-
-
-5. After deployment, the evaluation server is notified.
-
-
-
-The entire flow runs asynchronously in the background.
