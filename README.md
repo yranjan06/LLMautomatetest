@@ -44,12 +44,16 @@ USER_SECRET=your_secret
 ```
 #### 2. Install and Start
 
+```
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
+```
+
 Server runs at:
+
 
 http://127.0.0.1:8000
 
