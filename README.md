@@ -41,6 +41,7 @@ GITHUB_USERNAME=your_username
 OPENAI_API_KEY=your_openai_key
 USER_SECRET=your_secret
 
+```
 #### 2. Install and Start
 
 python -m venv venv
